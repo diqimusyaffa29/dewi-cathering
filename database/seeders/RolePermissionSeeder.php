@@ -56,7 +56,7 @@ class RolePermissionSeeder extends Seeder
         );
 
         $user = User::create([
-            'name' => 'farah',
+            'name' => 'Farah Cantik',
             'email' => 'super@admin.com',
             'password' => bcrypt(123123123),
         ]);
