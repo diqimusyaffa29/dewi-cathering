@@ -12,7 +12,7 @@ class OurPrincipleController extends Controller
      */
     public function index()
     {
-        //
+        return view('admin.principles.index');
     }
 
     /**

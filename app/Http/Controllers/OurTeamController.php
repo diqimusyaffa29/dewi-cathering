@@ -12,7 +12,7 @@ class OurTeamController extends Controller
      */
     public function index()
     {
-        //
+        return view('admin.teams.index');
     }
 
     /**

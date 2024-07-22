@@ -12,7 +12,7 @@ class CompanyStatisticController extends Controller
      */
     public function index()
     {
-        return("tampilkan data halaman statistik");
+        return view('admin.statistics.index');
     }
 
     /**
